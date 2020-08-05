@@ -28,6 +28,6 @@ class Waiter
       meal_a.tip <=>meal_b.tip
     end
 
-    best_tipped_meal.customer
+    best_tipped_meal.customer# Object relationships Waiter #best_tipper returns the Customer instance associated with the meal that received the largest tip
   end
-end#cus
+end
