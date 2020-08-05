@@ -22,4 +22,3 @@ class Waiter
       meal.waiter == self #checking for waiter now
     end
   end
-end
