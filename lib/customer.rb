@@ -24,7 +24,7 @@ class Customer
   end#customer is going to look at all the meals and then select only the ones that belong to them
 
   def waiters
-    meals.select do |meal|
+    meals.collect do |meal|
       meal.waiter
     end
   end
