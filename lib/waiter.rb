@@ -18,7 +18,8 @@ class Waiter
   end
 
   def meals
-    Meal.all.select. do |meal|
-      meal.waiter == self #checking for waiter now
+    Meal.all.select do |meal|#we are iterating through every instance of the Meal and rturning only the ones where the meal's customer matches the current customer instance.
+      meal.waiter==self
     end
   end
+end#cus
